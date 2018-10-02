@@ -1,15 +1,16 @@
-Exploratory Visualization with ggplot2 - CHIS
-10-02-18
+# RM rembmer to comment these out
+# Exploratory Visualization with ggplot2 - CHIS
+# 10-02-18
 
-# Install packages
-install.packages(“tidyverse”)
+# Install packages #RM remember to comment this out so it does not reinstall each time the script is run
+# install.packages(“tidyverse”)
 
 # Explore the dataset (“adult”) with summary and str
 str(adult)
 summary(adult)
 
 # Explore the data by creating  two histograms: on for age and one for BMI
-#Age histogram
+# Age histogram
 ggplot(adult, aes(x = SRAGE_P)) +
 geom_histogram()
 
